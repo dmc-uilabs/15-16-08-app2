@@ -1,0 +1,8 @@
+connection_status = Connected
+timestamp_current = 2016 11 16T14 33 03.523000
+data_points = 8192
+current_average = 99928.53645
+acceleration_x_average = 2.75955933816
+acceleration_y_average = 2.1880265074
+acceleration_z_average = 2.73537155468
+comment = Successful Execution
