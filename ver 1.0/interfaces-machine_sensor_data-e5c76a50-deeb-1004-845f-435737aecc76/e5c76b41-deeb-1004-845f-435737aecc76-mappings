@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="e5c76b41-deeb-1004-845f-435737aecc76" name="machine_sensor_data">
+    <interfaceinfo>
+        <version>0.0.1</version>
+    </interfaceinfo>
+    <mappingsandintermediates>
+        <mappings>
+            <interfacemappings>
+                <mappedParameter name="machine_name_out_in" idRef="e5c76b52-deeb-1004-845f-435737aecc76">
+                    <parameter name="machine_name_out_in" idRef="e5c76aa5-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="username_in" idRef="e5c76b4c-deeb-1004-845f-435737aecc76">
+                    <parameter name="username_in" idRef="e5c76a90-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="machine_name_in" idRef="e5c76b4e-deeb-1004-845f-435737aecc76">
+                    <parameter name="machine_name_in" idRef="e5c76a99-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="accy_out" idRef="e5c76b6c-deeb-1004-845f-435737aecc76">
+                    <parameter name="accy_out" idRef="e5c76af6-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="data_points_out" idRef="e5c76b69-deeb-1004-845f-435737aecc76">
+                    <parameter name="data_points_out" idRef="e5c76aed-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="ret_full_dataset_in" idRef="e5c76b5c-deeb-1004-845f-435737aecc76">
+                    <parameter name="ret_full_dataset_in" idRef="e5c76ac6-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="accz_in" idRef="e5c76b58-deeb-1004-845f-435737aecc76">
+                    <parameter name="accz_in" idRef="e5c76ab7-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="current_out" idRef="e5c76b6a-deeb-1004-845f-435737aecc76">
+                    <parameter name="current_out" idRef="e5c76af0-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="connection_out" idRef="e5c76b66-deeb-1004-845f-435737aecc76">
+                    <parameter name="connection_out" idRef="e5c76ae4-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="location_out" idRef="e5c76b6e-deeb-1004-845f-435737aecc76">
+                    <parameter name="location_out" idRef="e5c76afc-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="comment_in" idRef="e5c76b5a-deeb-1004-845f-435737aecc76">
+                    <parameter name="comment_in" idRef="e5c76abd-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="end_in" idRef="e5c76b50-deeb-1004-845f-435737aecc76">
+                    <parameter name="end_in" idRef="e5c76a9f-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="inputTemplate" idRef="e5c76b48-deeb-1004-845f-435737aecc76">
+                    <parameter name="inputTemplate" idRef="e5c76a7b-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="current_in" idRef="e5c76b55-deeb-1004-845f-435737aecc76">
+                    <parameter name="current_in" idRef="e5c76aae-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="accz_out" idRef="e5c76b6d-deeb-1004-845f-435737aecc76">
+                    <parameter name="accz_out" idRef="e5c76af9-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="accy_in" idRef="e5c76b57-deeb-1004-845f-435737aecc76">
+                    <parameter name="accy_in" idRef="e5c76ab4-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="port_in" idRef="e5c76b4a-deeb-1004-845f-435737aecc76">
+                    <parameter name="port_in" idRef="e5c76a8a-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="ret_full_dataset_out" idRef="e5c76b70-deeb-1004-845f-435737aecc76">
+                    <parameter name="ret_full_dataset_out" idRef="e5c76b02-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="accx_in" idRef="e5c76b56-deeb-1004-845f-435737aecc76">
+                    <parameter name="accx_in" idRef="e5c76ab1-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="password_out" idRef="e5c76b62-deeb-1004-845f-435737aecc76">
+                    <parameter name="password_out" idRef="e5c76ad8-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="username_out" idRef="e5c76b61-deeb-1004-845f-435737aecc76">
+                    <parameter name="username_out" idRef="e5c76ad5-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="time_period_out" idRef="e5c76b68-deeb-1004-845f-435737aecc76">
+                    <parameter name="time_period_out" idRef="e5c76aea-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="dbname_in" idRef="e5c76b4b-deeb-1004-845f-435737aecc76">
+                    <parameter name="dbname_in" idRef="e5c76a8d-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="connection_in" idRef="e5c76b51-deeb-1004-845f-435737aecc76">
+                    <parameter name="connection_in" idRef="e5c76aa2-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="machine_name_out_out" idRef="e5c76b67-deeb-1004-845f-435737aecc76">
+                    <parameter name="machine_name_out_out" idRef="e5c76ae7-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="password_in" idRef="e5c76b4d-deeb-1004-845f-435737aecc76">
+                    <parameter name="password_in" idRef="e5c76a93-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="snap_view_out" idRef="e5c76b71-deeb-1004-845f-435737aecc76">
+                    <parameter name="snap_view_out" idRef="e5c76b05-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="accx_out" idRef="e5c76b6b-deeb-1004-845f-435737aecc76">
+                    <parameter name="accx_out" idRef="e5c76af3-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="location_in" idRef="e5c76b59-deeb-1004-845f-435737aecc76">
+                    <parameter name="location_in" idRef="e5c76aba-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="port_out" idRef="e5c76b5f-deeb-1004-845f-435737aecc76">
+                    <parameter name="port_out" idRef="e5c76acf-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="ipaddress_out" idRef="e5c76b5e-deeb-1004-845f-435737aecc76">
+                    <parameter name="ipaddress_out" idRef="e5c76acc-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="comment_out" idRef="e5c76b6f-deeb-1004-845f-435737aecc76">
+                    <parameter name="comment_out" idRef="e5c76aff-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="snap_view_in" idRef="e5c76b5b-deeb-1004-845f-435737aecc76">
+                    <parameter name="snap_view_in" idRef="e5c76ac3-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="outputTemplate" idRef="e5c76b5d-deeb-1004-845f-435737aecc76">
+                    <parameter name="outputTemplate" idRef="e5c76ac9-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="ipaddress_in" idRef="e5c76b49-deeb-1004-845f-435737aecc76">
+                    <parameter name="ipaddress_in" idRef="e5c76a87-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="end_out" idRef="e5c76b65-deeb-1004-845f-435737aecc76">
+                    <parameter name="end_out" idRef="e5c76ae1-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="start_out" idRef="e5c76b64-deeb-1004-845f-435737aecc76">
+                    <parameter name="start_out" idRef="e5c76ade-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="time_period_in" idRef="e5c76b53-deeb-1004-845f-435737aecc76">
+                    <parameter name="time_period_in" idRef="e5c76aa8-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="machine_name_out" idRef="e5c76b63-deeb-1004-845f-435737aecc76">
+                    <parameter name="machine_name_out" idRef="e5c76adb-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="dbname_out" idRef="e5c76b60-deeb-1004-845f-435737aecc76">
+                    <parameter name="dbname_out" idRef="e5c76ad2-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="data_points_in" idRef="e5c76b54-deeb-1004-845f-435737aecc76">
+                    <parameter name="data_points_in" idRef="e5c76aab-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+                <mappedParameter name="start_in" idRef="e5c76b4f-deeb-1004-845f-435737aecc76">
+                    <parameter name="start_in" idRef="e5c76a9c-deeb-1004-845f-435737aecc76" idModelRef="e5c76a50-deeb-1004-845f-435737aecc76"/>
+                </mappedParameter>
+            </interfacemappings>
+        </mappings>
+        <intermediateobjects/>
+    </mappingsandintermediates>
+</modelinterface>
